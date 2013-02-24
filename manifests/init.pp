@@ -1,7 +1,7 @@
 class appengine_python (
   $appengine_version = '1.7.4',
   $sdk_base_url = 'http://googleappengine.googlecode.com/files',
-  $sdk_file = 'google_appengine_1.7.4.zip',
+  $sdk_file = "google_appengine_${appengine_versin}.zip",
   $install_dir_prefix = '/opt/google/appengine'
   ) {
 
